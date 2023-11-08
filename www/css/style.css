@@ -1,0 +1,50 @@
+/* Navbar */
+.navbar span {
+  color: #f9fd00;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 7%;
+  border-bottom: 1px solid #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9998;
+}
+.navbar .nav-link {
+  color: rgb(8, 1, 1);
+}
+
+.navbar .nav-link:hover {
+  color: #0026ff;
+}
+
+/* Jumbotron */
+.jumbotron {
+  padding: 6rem 0rem 2rem 0;
+  background-color: #00fdfd;
+}
+
+/* About */
+#about {
+  padding: 5rem 1rem;
+}
+
+/* Project */
+#projects {
+  padding: 5rem 1rem;
+  background-color: #00fdfd;
+}
+
+#projects .card .card-text {
+  text-align: justify;
+}
+
+/* Footer */
+.footer {
+  padding: 1rem 0 0.2rem 0;
+}
